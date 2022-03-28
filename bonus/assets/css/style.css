@@ -5,16 +5,17 @@
 }
 
 #site_main {
-    background-color: blue;
+    background-color: cornflowerblue;
     color: white;
     text-align: center;
+    padding: 2rem;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
-    margin: 0 auto;
+    width: 950px;
+    margin: 2rem auto;
     justify-content: center;
 }
 
@@ -33,13 +34,13 @@
 }
 
 .bg_3 {
-    background-color: green;
+    background-color: palegreen;
 }
 
 .bg_5 {
-    background-color: yellow;
+    background-color: palegoldenrod;
 }
 
 .bg_35 {
-    background-color: red;
+    background-color: palevioletred;
 }
