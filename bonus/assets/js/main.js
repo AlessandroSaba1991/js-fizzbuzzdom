@@ -3,7 +3,7 @@ const element_container = document.querySelector('.container');
 
 
 //creo constanti per fizz e buzz
-const fizz = 'Fizz '
+const fizz = 'Fizz'
 const buzz = 'Buzz'
 
 //dichiaro variabile quadrato + text
@@ -15,27 +15,32 @@ for (let i = 1; i <= 100; i++) {
 
         text = fizz + buzz
         element_div = document.createElement('div')
+        element_div.className = 'bg_35 '
         element_div.insertAdjacentHTML("beforeend", text)
 
     } else if (i % 5 == 0) {
 
         text = buzz
         element_div = document.createElement('div')
+        element_div.className = 'bg_5 '
         element_div.insertAdjacentHTML("beforeend", text)
 
     } else if (i % 3 == 0) {
 
         text = fizz
         element_div = document.createElement('div')
+        element_div.className = 'bg_3 '
         element_div.insertAdjacentHTML("beforeend", text)
 
     } else {
 
         text = i
         element_div = document.createElement('div')
+        element_div.className = 'bg_normal '
         element_div.insertAdjacentHTML("beforeend", text)
 
     }
 
+    element_div.classList.add('square')
     element_container.append(element_div)
 }
