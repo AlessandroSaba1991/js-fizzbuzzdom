@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#site_main {
+    background-color: blue;
+    color: white;
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    color: black;
+}
